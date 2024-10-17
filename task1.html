@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0%;
+      }
+      .c1 {
+        background-image: url(img1.avif);
+
+        width: 100%;
+        height: 100vh;
+        position: relative;
+      }
+      nav {
+        position: fixed;
+        z-index: 1;
+      }
+      .cc1 {
+        align-items: center;
+        margin-left: 600px;
+      }
+      h1 {
+        font-family: cursive;
+        /* margin-left:0px; */
+        padding: 20px;
+      }
+      .HEAD{
+        margin-left: 150px;
+      }
+      P{
+        font-family: cursive;
+        margin-left: 0;
+      }
+      a {
+        text-decoration: none;
+        color: black;
+        padding: 20px;
+        align-content: center;
+      }
+      .ccc1 {
+        position: absolute;
+        background-color: rgba(255, 255, 255, 0.8);
+        background-attachment: fixed;
+        background-size: 100%, 100%;
+        width: 75%;
+        height: 60vh;
+        margin-top: 150px;
+        margin-left: 200px;
+        align-items: center;
+        padding: 2%;
+       
+
+        display: flex;
+        justify-content: center;
+    
+      }
+      img{
+        flex-basis: 30%;
+        width: 500px;
+        height: 400px;
+      }
+      .child1{
+        flex-basis: 65%;
+        padding: 5px;
+      }
+      .c2 {
+        background-image: url(img2.avif);
+        background-size: 100% ,100%;
+        background-attachment: fixed;
+        
+        width: 100%;
+        height: 100vh;
+        position: relative;
+      }
+      .c3 {
+        background-image: url(img3.avif);
+        background-size: 100%, 100%;
+        background-attachment: fixed;
+        
+        width: 100%;
+        height: 100vh;
+        position: relative;
+      }
+      .c4{
+        background-color: rgb(37, 34, 34);
+        color: white;
+        width: 100%;
+        height: 80px;
+        text-align: center;
+      }
+     
+      @media screen and (width<576px) {
+        .c1 {
+       
+
+        width: 100%;
+        height: 100vh;
+        
+      }
+      .cc1 {
+        align-items: center;
+      margin-left: 50px;
+      }
+    .ccc1{
+    flex-direction: column;
+    margin-left: 5px;
+    height: 70vh;
+    }
+        
+      
+      .c2{
+        flex-direction: column;
+        
+      }
+      .c3{
+        flex-direction: column;
+      
+      }
+      
+    }
+
+    </style>
+  </head>
+  <body>
+    <div class="c1">
+      <nav>
+        <div class="cc1">
+          <h1 class="HEAD">Adorable</h1>
+          <a href="#PP1">playfull puppy</a>
+          <a href="#PP2">sleepy puppy</a>
+          <a href="#PP3">curious puppy</a>
+        </div>
+      </nav>
+      <div class="ccc1" id="PP1">
+        <img src="img1.avif" alt="" />
+        <div class="child1">
+          <h1>playful puppy</h1>
+          <p style="text-align: center;">puppies love to play its how they learn about the world</p>
+        </div>
+      </div>    
+    </div>
+    <div class="c2" id="PP2">
+        <div class="ccc1">
+          
+            <div class="child1">
+              <h1>sleepy puppies</h1>
+              <p style="text-align: center;">puppies need lots of sleep to grow big and strong they can sleep up to 20 hours a day!</p>
+            </div>
+            <img src="img2.avif" alt="" />
+          </div> 
+
+    </div>
+    <div class="c3 " id="PP3">
+        <div class="ccc1">
+            <img src="img3.avif" alt="" />
+            <div class="child1">
+              <h1>curious puppies</h1>
+              <p style="text-align: center;">puppies are naturally curious and love to explor their surrounding. This helps them learn and group!</p>
+            </div>
+          </div>  
+
+    </div>
+    <div class="c4">
+        <p class="p1">2024 puppy parallax demo</p>
+    </div>
+  </body>
+</html>
